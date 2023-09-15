@@ -1,0 +1,95 @@
+.explorer {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-gap: 1rem;
+  grid-auto-flow: row;
+}
+
+.header {
+  height: 60px;
+  flex-direction: row;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.row-item {
+  display: inline-block;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+}
+
+.search {
+  margin-left: 10px;
+  border-radius: 5px;
+  border-width: 0;
+  height: 30px;
+  padding: 10px;
+  flex: 1;
+  font-size: 20;
+}
+
+.search input:focus {
+  border-color: transparent;
+  outline: 0;
+}
+
+.input[type="text"]:focus {
+  outline: 0;
+
+  border-color: red !important;
+}
+
+.input[type="text"] {
+  font-size: 24px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.file-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home {
+  color: grey;
+  font-weight: 600;
+}
+
+.home-active {
+  color: darkblue;
+  font-weight: 600;
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.file-active {
+  border-radius: 5px;
+  color: darkblue;
+  font-weight: bolder;
+}
